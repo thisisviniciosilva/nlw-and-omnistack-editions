@@ -1,0 +1,222 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-06-03T18:23:04.080Z",
+  "__export_source": "insomnia.desktop.app:v2020.2.1",
+  "resources": [
+    {
+      "_id": "req_52d1df22e44b4ea8990d274a71cdd501",
+      "authentication": {},
+      "body": {},
+      "created": 1591206906823,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1591191514083,
+      "method": "GET",
+      "modified": 1591207765168,
+      "name": "index",
+      "parameters": [
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_8bc3b59679634805ba6b8144fe83792e",
+          "name": "city",
+          "value": "Morada Nova"
+        },
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_d0d215f2797f4604af6430bece2900c5",
+          "name": "uf",
+          "value": "CE"
+        }
+      ],
+      "parentId": "fld_b7ece1f84b29476cb9b7db547ed3e0ba",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/{{ source  }}",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_b7ece1f84b29476cb9b7db547ed3e0ba",
+      "created": 1591182330859,
+      "description": "",
+      "environment": { "source": "points" },
+      "environmentPropertyOrder": { "&": ["source"] },
+      "metaSortKey": -1591182330859,
+      "modified": 1591183933051,
+      "name": "/points",
+      "parentId": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "created": 1591140649523,
+      "description": "",
+      "modified": 1591140649523,
+      "name": "NLW01",
+      "parentId": null,
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_f9bc8154cecf403e9c782801e44e4510",
+      "authentication": {},
+      "body": {},
+      "created": 1591191514033,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1591191514033,
+      "method": "GET",
+      "modified": 1591193011167,
+      "name": "show",
+      "parameters": [],
+      "parentId": "fld_b7ece1f84b29476cb9b7db547ed3e0ba",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/{{ source  }}/5ed7a7bf374ffc0b74c794fe",
+      "_type": "request"
+    },
+    {
+      "_id": "req_58d74e41a94346f49de9d2431cf0c442",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Mercado Imperatriz\",\n\t\"email\": \"contato@imperatriz.com.br\",\n\t\"whatsapp\": \"99999999999\",\n\t\"latitude\": -5.1074803,\n\t\"longitude\": -38.3692392,\n\t\"city\": \"Morada Nova\",\n\t\"uf\": \"CE\",\n\t\"items\": [\n\t\t\"5ed6eeeff94c8923906585e8\",\n\t\t\"5ed6eeeff94c8923906585e9\",\n\t\t\"5ed6eeeff94c8923906585ed\"\n\t]\n}\n"
+      },
+      "created": 1591182337194,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_d485617542f74f7a86c229ed40a836e8",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1591182337194,
+      "method": "POST",
+      "modified": 1591183996630,
+      "name": "store",
+      "parameters": [],
+      "parentId": "fld_b7ece1f84b29476cb9b7db547ed3e0ba",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/{{ source  }}",
+      "_type": "request"
+    },
+    {
+      "_id": "req_dcfd1d49b6f441ae84d9ecaae92f5548",
+      "authentication": {},
+      "body": {},
+      "created": 1591181095115,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1591181095115,
+      "method": "GET",
+      "modified": 1591181107292,
+      "name": "index",
+      "parameters": [],
+      "parentId": "fld_3d6c17be5bb6409b976ec5670beebfd0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/{{ source  }}",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_3d6c17be5bb6409b976ec5670beebfd0",
+      "created": 1591140703980,
+      "description": "",
+      "environment": { "source": "items" },
+      "environmentPropertyOrder": { "&": ["source"] },
+      "metaSortKey": -1591140703980,
+      "modified": 1591140889956,
+      "name": "/items",
+      "parentId": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_1a816fbf8ff54775b79a213692f8d1b7",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"list\": [\n\t\t{ \"title\": \"Lâmpadas\", \"image\": \"lampadas.svg\" },\n\t\t{ \"title\": \"Pilhas e Baterias\", \"image\": \"baterias.svg\" },\n\t\t{ \"title\": \"Papéis e Papelão\", \"image\": \"papeis-papelao.svg\" },\n\t\t{ \"title\": \"Resíduos Eletrônicos\", \"image\": \"eletronicos.svg\" },\n\t\t{ \"title\": \"Resíduos Orgânicos\", \"image\": \"organicos.svg\" },\n\t\t{ \"title\": \"Óleo de Cozinha\", \"image\": \"oleo.svg\" }\n\t]\n}\n"
+      },
+      "created": 1591140715907,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_8d3265e0a1434feb9e88a642d6fe4853",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1591140715907,
+      "method": "POST",
+      "modified": 1591182503990,
+      "name": "registerall",
+      "parameters": [],
+      "parentId": "fld_3d6c17be5bb6409b976ec5670beebfd0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/{{ source  }}/registerall",
+      "_type": "request"
+    },
+    {
+      "_id": "env_bb1b0e90e3a722fee51f115eb01db9af9878bc68",
+      "color": null,
+      "created": 1591140649558,
+      "data": { "base_url": "http://localhost:3333" },
+      "dataPropertyOrder": { "&": ["base_url"] },
+      "isPrivate": false,
+      "metaSortKey": 1591140649558,
+      "modified": 1591140674257,
+      "name": "Base Environment",
+      "parentId": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_bb1b0e90e3a722fee51f115eb01db9af9878bc68",
+      "cookies": [],
+      "created": 1591140649569,
+      "modified": 1591140649569,
+      "name": "Default Jar",
+      "parentId": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_716063f9769844b68619a15bdd0b5480",
+      "contentType": "yaml",
+      "contents": "",
+      "created": 1591180607835,
+      "fileName": "NLW01",
+      "modified": 1591180607835,
+      "parentId": "wrk_fe79f09eda67433e9c75e576c97a640a",
+      "_type": "api_spec"
+    }
+  ]
+}

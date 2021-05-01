@@ -2,6 +2,7 @@
 node_modules
 
 # VS Code workspace settings
+.vs
 .vscode
 
 # Lock files

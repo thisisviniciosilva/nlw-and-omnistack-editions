@@ -1,0 +1,64 @@
+.dev-item {
+  padding: 20px;
+
+  border-radius: 2px;
+
+  background: #fff;
+  box-shadow: 0 0 14px 0 #0003;
+}
+
+.dev-item header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.dev-item header img {
+  width: 54px;
+  height: 54px;
+
+  border-radius: 50%;
+}
+
+.dev-item p {
+  margin: 10px 0;
+
+  font-size: 0.875em;
+  line-height: 1.25em;
+
+  color: #666;
+}
+
+.dev-item a {
+  font-size: 0.75em;
+  text-decoration: none;
+
+  color: #8d4dff;
+
+  cursor: pointer;
+}
+
+.dev-item a:hover {
+  color: #5a2ca6;
+}
+
+.dev-info {
+  margin-left: 10px;
+}
+
+.dev-info strong {
+  display: block;
+
+  font-size: 1em;
+
+  color: #333;
+}
+
+.dev-info span {
+  margin-top: 2px;
+
+  font-size: 0.8125em;
+
+  color: #999;
+}

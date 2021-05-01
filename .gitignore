@@ -1,0 +1,9 @@
+# Node modules
+node_modules
+
+# VS Code workspace settings
+.vscode
+
+# Lock files
+*.lock
+/package-lock.json

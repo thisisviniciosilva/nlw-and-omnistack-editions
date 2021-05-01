@@ -1,0 +1,20 @@
+{
+  "name": "nlw-and-omnistack-editions",
+  "version": "1.0.0",
+  "description": "NLW and Omnistack editions",
+  "main": "index.js",
+  "author": "Vinicio Silva <viniciomsilva@outlook.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
